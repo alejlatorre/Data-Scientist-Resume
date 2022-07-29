@@ -9,4 +9,4 @@ https://www.overleaf.com/latex/templates/data-science-tech-cover-letter-template
 
 ![cover](https://github.com/TimmyChan/data-science-tech-resume-template/blob/main/data_science_tech_resume_template1024_1.png?raw=true)
                
-### Last Updated: April 11th, 2022
+### Last Updated: July 29th, 2022
