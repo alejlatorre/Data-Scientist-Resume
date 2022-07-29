@@ -1,0 +1,48 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{TLCresume}
+\usepackage{fancyhdr}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Alejandro Latorre} % Name Here
+\def\phone{(+51) 943-440-048}
+\def\city{Lima, Peru}
+\def\email{alejandro.latorre@pucp.edu.pe}
+\def\Medium{@alejlatorre}
+\def\LinkedIn{alejandro-latorre-rojas} % linkedin.com/in/______
+\def\github{alejlatorre} % Github username
+\def\role{Data Scientist / Data Analyst} % Job title
+
+\input{_header}
+
+\begin{document}
+
+\pagestyle{first_page}
+
+\justify
+\input{sections/objective}
+
+\section{Skills} 
+\input{sections/skills}
+
+\section{Technical Experience}
+\input{sections/technical_experience}
+
+\section{Teaching Experience}
+\input{sections/teaching_experience}
+
+\newpage\pagestyle{others}
+
+\section{Education}
+\input{sections/education}
+
+\section{Certifications}
+\input{sections/certifications}
+
+\section{Activities}
+\input{sections/activities}
+
+\end{document}
